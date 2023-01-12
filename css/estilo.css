@@ -1,0 +1,62 @@
+@font-face {
+    font-family: MoonDance-Regular;
+    src: url(fonts/MoonDance-Regular.ttf);
+    font-family: Roboto-Light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+#conteudo
+{
+    max-width: 70%;
+    margin: auto;
+    text-align: center;                
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-size: 24px; 
+    font-family: Roboto-Light;                    
+}
+
+.titulo {
+    background-color: white; 
+    color: rgb(44, 43, 43);
+    text-align: center;
+    padding: 1%;  
+    font-family: 'Moon Dance', cursive;
+    font-size: 32px; 
+               
+}
+nav {
+    background-color: rgb(8, 8, 8);
+    margin-top: -1%;
+    padding: 0.5%;
+    text-align: center;
+    
+}
+nav ul li 
+{
+    display: inline-block;
+    margin: 3%;
+}
+nav ul li a{color: whitesmoke; text-decoration: none;}
+nav ul li a:visited{color: white;}
+nav ul li  a:hover{color: red;font-size: 28px;text-shadow: 1px 1px 10px whitesmoke;}
+footer 
+{
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: 10%;
+    padding: 1%;
+}
+
+.fotos 
+{
+    max-width: 100%;
+}
+
+th{ background-color: gray; color: black; font-size: 22px;}
+
+td {padding: 2%;}
